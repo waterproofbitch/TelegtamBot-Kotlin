@@ -1,0 +1,41 @@
+ var text1 ="gregg"
+
+            execute(SendMessage()
+                    .setChatId(update.message.chatId)
+                    .setText("text"))
+            val keybord = ReplyKeyboardMarkup()
+            keybord.keyboard = listOf(
+                    KeyboardRow().apply {
+                        add(KeyboardButton("Кпопка1"))
+                    } )
+
+
+
+
+
+
+
+
+
+                     if (update.message.text == "Кпопка3") {
+                                execute(SendMessage()
+                                        .setChatId(update.message.chatId)
+                                        .setText("Клад")
+
+
+                                        .setReplyMarkup(InlineKeyboardMarkup().apply {
+                                            keyboard = listOf(
+                                                    listOf(InlineKeyboardButton("маршрут").apply {
+                                                        url="https://www.google.com/maps/place/52°31'13.9\"N+40°01'35.9\"E/@52.5246669,40.060554,13.99z/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d52.5205209!4d40.0266383?hl=ru-RU"
+                                                    }
+
+                                                    )
+                                            )
+                                        }
+                                ))
+
+
+
+
+
+                            }

@@ -1,0 +1,1 @@
+worker: sh ./src/main/java/TelegramBotApi.kt
